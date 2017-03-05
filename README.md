@@ -17,10 +17,11 @@ Sending http pipeline with wrk:
 wrk -t10 -c200 -d5s http://127.0.0.1:8080 --latency -s pipeline.lua -- 5
 ```
 
-## Results
+## Tl;dr
 - As expected, **uvloop with httptools** shows the best performance in python frameworks.
 - **aiohttp**, **tornado** successfully processed the http pipeline requests.
 - **sanic** and **japronto** failed. (See `error.log` for details.)
+- But, the winner is **go-fasthttp**.
 
 ### uvloop with httptools
 ```
