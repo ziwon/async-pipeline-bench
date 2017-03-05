@@ -1,0 +1,214 @@
+Accepting connections on http://0.0.0.0:8080
+Accepting connections on http://0.0.0.0:8080
+*** Error in `python': corrupted double-linked list: 0x0000561606807a70 ***
+*** Error in `python': corrupted double-linked list: 0x000056160680d5d0 ***
+======= Backtrace: =========
+/lib/x86_64-linux-gnu/libc.so.6(+0x790cb)[0x7f98c65ef0cb]
+/lib/x86_64-linux-gnu/libc.so.6(+0x82de2)[0x7f98c65f8de2]
+/lib/x86_64-linux-gnu/libc.so.6(cfree+0x4c)[0x7f98c65fc18c]
+/home/luno/.pyenv/versions/async-env/lib/python3.6/site-packages/japronto/protocol/cprotocol.cpython-36m-x86_64-linux-gnu.so(+0x6e8f)[0x7f98c0efae8f]
+python(PyCFunction_Call+0x9a)[0x5616044511aa]
+/home/luno/.pyenv/versions/async-env/lib/python3.6/site-packages/uvloop/loop.cpython-36m-x86_64-linux-gnu.so(+0x2166f)[0x7f98c21c266f]
+/home/luno/.pyenv/versions/async-env/lib/python3.6/site-packages/uvloop/loop.cpython-36m-x86_64-linux-gnu.so(+0x1076c5)[0x7f98c22a86c5]
+/home/luno/.pyenv/versions/async-env/lib/python3.6/site-packages/uvloop/loop.cpython-36m-x86_64-linux-gnu.so(+0x10bcea)[0x7f98c22accea]
+/home/luno/.pyenv/versions/async-env/lib/python3.6/site-packages/uvloop/loop.cpython-36m-x86_64-linux-gnu.so(+0x10770e)[0x7f98c22a870e]
+/home/luno/.pyenv/versions/async-env/lib/python3.6/site-packages/uvloop/loop.cpython-36m-x86_64-linux-gnu.so(+0x10b04e)[0x7f98c22ac04e]
+/home/luno/.pyenv/versions/async-env/lib/python3.6/site-packages/uvloop/loop.cpython-36m-x86_64-linux-gnu.so(uv__run_idle+0x84)[0x7f98c22ce8b4]
+/home/luno/.pyenv/versions/async-env/lib/python3.6/site-packages/uvloop/loop.cpython-36m-x86_64-linux-gnu.so(uv_run+0x2d0)[0x7f98c22cc930]
+/home/luno/.pyenv/versions/async-env/lib/python3.6/site-packages/uvloop/loop.cpython-36m-x86_64-linux-gnu.so(+0x5e640)[0x7f98c21ff640]
+/home/luno/.pyenv/versions/async-env/lib/python3.6/site-packages/uvloop/loop.cpython-36m-x86_64-linux-gnu.so(+0x62f31)[0x7f98c2203f31]
+/home/luno/.pyenv/versions/async-env/lib/python3.6/site-packages/uvloop/loop.cpython-36m-x86_64-linux-gnu.so(+0xa719a)[0x7f98c224819a]
+python(_PyCFunction_FastCallKeywords+0x149)[0x5616044513e9]
+python(+0x18599e)[0x5616044e399e]
+python(_PyEval_EvalFrameDefault+0x478a)[0x5616044e90da]
+python(+0x1855ed)[0x5616044e35ed]
+python(_PyFunction_FastCallDict+0x137)[0x5616044ec4c7]
+python(_PyObject_FastCallDict+0x1d0)[0x5616043e94f0]
+python(_PyObject_Call_Prepend+0xcc)[0x5616043e95ec]
+python(PyObject_Call+0x3a)[0x5616043e91ca]
+python(_PyEval_EvalFrameDefault+0x2af7)[0x5616044e7447]
+python(+0x184b81)[0x5616044e2b81]
+python(+0x185b15)[0x5616044e3b15]
+python(_PyEval_EvalFrameDefault+0x478a)[0x5616044e90da]
+python(+0x184b81)[0x5616044e2b81]
+python(+0x185b15)[0x5616044e3b15]
+python(_PyEval_EvalFrameDefault+0x478a)[0x5616044e90da]
+python(+0x184b81)[0x5616044e2b81]
+python(+0x185b15)[0x5616044e3b15]
+python(_PyEval_EvalFrameDefault+0x478a)[0x5616044e90da]
+python(+0x184b81)[0x5616044e2b81]
+python(_PyFunction_FastCallDict+0x2e8)[0x5616044ec678]
+python(_PyObject_FastCallDict+0x1d0)[0x5616043e94f0]
+python(_PyObject_Call_Prepend+0xcc)[0x5616043e95ec]
+python(PyObject_Call+0x3a)[0x5616043e91ca]
+python(+0x10ffbd)[0x56160446dfbd]
+python(+0x10956f)[0x56160446756f]
+python(_PyObject_FastCallDict+0xaa)[0x5616043e93ca]
+python(+0x185771)[0x5616044e3771]
+python(_PyEval_EvalFrameDefault+0x478a)[0x5616044e90da]
+python(+0x184b81)[0x5616044e2b81]
+python(+0x185b15)[0x5616044e3b15]
+python(_PyEval_EvalFrameDefault+0x478a)[0x5616044e90da]
+python(+0x184b81)[0x5616044e2b81]
+python(+0x185b15)[0x5616044e3b15]
+python(_PyEval_EvalFrameDefault+0x478a)[0x5616044e90da]
+python(+0x184b81)[0x5616044e2b81]
+python(+0x185b15)[0x5616044e3b15]
+python(_PyEval_EvalFrameDefault+0x478a)[0x5616044e90da]
+python(+0x1855ed)[0x5616044e35ed]
+python(+0x1858b4)[0x5616044e38b4]
+python(_PyEval_EvalFrameDefault+0x411a)[0x5616044e8a6a]
+python(+0x1855ed)[0x5616044e35ed]
+python(+0x1858b4)[0x5616044e38b4]
+python(_PyEval_EvalFrameDefault+0x411a)[0x5616044e8a6a]
+python(+0x1855ed)[0x5616044e35ed]
+python(PyEval_EvalCode+0x23)[0x5616044e4433]
+python(PyRun_FileExFlags+0x169)[0x5616043bcde9]
+python(PyRun_SimpleFileExFlags+0xf5)[0x5616043bd025]
+python(Py_Main+0xe13)[0x5616043d18d3]
+======= Memory map: ========
+56160435e000-561604605000 r-xp 00000000 08:02 4063502                    /home/luno/.pyenv/versions/3.6.0/bin/python3.6
+561604805000-561604808000 r--p 002a7000 08:02 4063502                    /home/luno/.pyenv/versions/3.6.0/bin/python3.6
+561604808000-56160486b000 rw-p 002aa000 08:02 4063502                    /home/luno/.pyenv/versions/3.6.0/bin/python3.6
+56160486b000-56160489c000 rw-p 00000000 00:00 0
+561606543000-5616067eb000 rw-p 00000000 00:00 0                          [heap]
+5616067eb000-56160685d000 rw-p 00000000 00:00 0                          [heap]
+7f98bc000000-7f98bc021000 rw-p 00000000 00:00 0
+7f98bc021000-7f98c0000000 ---p 00000000 00:00 0
+7f98c0a9b000-7f98c0ab1000 r-xp 00000000 08:02 6951402                    /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f98c0ab1000-7f98c0cb0000 ---p 00016000 08:02 6951402                    /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f98c0cb0000-7f98c0cb1000 r--p 00015000 08:02 6951402                    /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f98c0cb1000-7f98c0cb2000 rw-p 00016000 08:02 6951402                    /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f98c0cb2000-7f98c0cf2000 rw-p 00000000 00:00 0
+7f98c0cf2000-7f98c0cf4000 r-xp 00000000 08:02 6297207                    /home/luno/.pyenv/versions/3.6.0/envs/async-env/lib/python3.6/site-packages/japronto/protocol/creaper.cpython-36m-x86_64-linux-gnu.so
+7f98c0cf4000-7f98c0ef3000 ---p 00002000 08:02 6297207                    /home/luno/.pyenv/versions/3.6.0/envs/async-env/lib/python3.6/site-packages/japronto/protocol/creaper.cpython-36m-x86_64-linux-gnu.so
+7f98c0ef3000-7f98c0ef4000 rw-p 00001000 08:02 6297207                    /home/luno/.pyenv/versions/3.6.0/envs/async-env/lib/python3.6/site-packages/japronto/protocol/creaper.cpython-36m-x86_64-linux-gnu.so
+7f98c0ef4000-7f98c0efe000 r-xp 00000000 08:02 6297210                    /home/luno/.pyenv/versions/3.6.0/envs/async-env/lib/python3.6/site-packages/japronto/protocol/cprotocol.cpython-36m-x86_64-linux-gnu.so
+7f98c0efe000-7f98c10fd000 ---p 0000a000 08:02 6297210                    /home/luno/.pyenv/versions/3.6.0/envs/async-env/lib/python3.6/site-packages/japronto/protocol/cprotocol.cpython-36m-x86_64-linux-gnu.so
+7f98c10fd000-7f98c10fe000 rw-p 00009000 08:02 6297210                    /home/luno/.pyenv/versions/3.6.0/envs/async-env/lib/python3.6/site-packages/japronto/protocol/cprotocol.cpython-36m-x86_64-linux-gnu.so
+7f98c10fe000-7f98c1101000 r-xp 00000000 08:02 6297227                    /home/luno/.pyenv/versions/3.6.0/envs/async-env/lib/python3.6/site-packages/japronto/response/cresponse.cpython-36m-x86_64-linux-gnu.so
+7f98c1101000-7f98c1301000 ---p 00003000 08:02 6297227                    /home/luno/.pyenv/versions/3.6.0/envs/async-env/lib/python3.6/site-packages/japronto/response/cresponse.cpython-36m-x86_64-linux-gnu.so
+7f98c1301000-7f98c1302000 rw-p 00003000 08:02 6297227                    /home/luno/.pyenv/versions/3.6.0/envs/async-env/lib/python3.6/site-packages/japronto/response/cresponse.cpython-36m-x86_64-linux-gnu.so
+7f98c1302000-7f98c1307000 r-xp 00000000 08:02 6297192                    /home/luno/.pyenv/versions/3.6.0/envs/async-env/lib/python3.6/site-packages/japronto/request/crequest.cpython-36m-x86_64-linux-gnu.so
+7f98c1307000-7f98c1506000 ---p 00005000 08:02 6297192                    /home/luno/.pyenv/versions/3.6.0/envs/async-env/lib/python3.6/site-packages/japronto/request/crequest.cpython-36m-x86_64-linux-gnu.so
+7f98c1506000-7f98c1507000 rw-p 00004000 08:02 6297192                    /home/luno/.pyenv/versions/3.6.0/envs/async-env/lib/python3.6/site-packages/japronto/request/crequest.cpython-36m-x86_64-linux-gnu.so
+7f98c1507000-7f98c15c6000 r-xp 00000000 08:02 4076685                    /home/luno/.pyenv/versions/3.6.0/lib/python3.6/lib-dynload/unicodedata.cpython-36m-x86_64-linux-gnu.so
+7f98c15c6000-7f98c17c5000 ---p 000bf000 08:02 4076685                    /home/luno/.pyenv/versions/3.6.0/lib/python3.6/lib-dynload/unicodedata.cpython-36m-x86_64-linux-gnu.so
+7f98c17c5000-7f98c17c6000 r--p 000be000 08:02 4076685                    /home/luno/.pyenv/versions/3.6.0/lib/python3.6/lib-dynload/unicodedata.cpython-36m-x86_64-linux-gnu.so
+7f98c17c6000-7f98c17e1000 rw-p 000bf000 08:02 4076685                    /home/luno/.pyenv/versions/3.6.0/lib/python3.6/lib-dynload/unicodedata.cpython-36m-x86_64-linux-gnu.so
+7f98c17e1000-7f98c18b2000 rw-p 00000000 00:00 0
+7f98c18b2000-7f98c18c8000 r-xp 00000000 08:02 4076660                    /home/luno/.pyenv/versions/3.6.0/lib/python3.6/lib-dynload/_datetime.cpython-36m-x86_64-linux-gnu.so
+7f98c18c8000-7f98c1ac7000 ---p 00016000 08:02 4076660                    /home/luno/.pyenv/versions/3.6.0/lib/python3.6/lib-dynload/_datetime.cpython-36m-x86_64-linux-gnu.so
+7f98c1ac7000-7f98c1ac8000 r--p 00015000 08:02 4076660                    /home/luno/.pyenv/versions/3.6.0/lib/python3.6/lib-dynload/_datetime.cpython-36m-x86_64-linux-gnu.so
+7f98c1ac8000-7f98c1acb000 rw-p 00016000 08:02 4076660                    /home/luno/.pyenv/versions/3.6.0/lib/python3.6/lib-dynload/_datetime.cpython-36m-x86_64-linux-gnu.so
+7f98c1acb000-7f98c1b4b000 rw-p 00000000 00:00 0
+7f98c1b4b000-7f98c1b55000 r-xp 00000000 08:02 4076667                    /home/luno/.pyenv/versions/3.6.0/lib/python3.6/lib-dynload/_json.cpython-36m-x86_64-linux-gnu.so
+7f98c1b55000-7f98c1d54000 ---p 0000a000 08:02 4076667                    /home/luno/.pyenv/versions/3.6.0/lib/python3.6/lib-dynload/_json.cpython-36m-x86_64-linux-gnu.so
+7f98c1d54000-7f98c1d55000 r--p 00009000 08:02 4076667                    /home/luno/.pyenv/versions/3.6.0/lib/python3.6/lib-dynload/_json.cpython-36m-x86_64-linux-gnu.so
+7f98c1d55000-7f98c1d56000 rw-p 0000a000 08:02 4076667                    /home/luno/.pyenv/versions/3.6.0/lib/python3.6/lib-dynload/_json.cpython-36m-x86_64-linux-gnu.so
+7f98c1d56000-7f98c1d96000 rw-p 00000000 00:00 0
+7f98c1d96000-7f98c1d98000 r-xp 00000000 08:02 6297246                    /home/luno/.pyenv/versions/3.6.0/envs/async-env/lib/python3.6/site-packages/japronto/router/cmatcher.cpython-36m-x86_64-linux-gnu.so
+7f98c1d98000-7f98c1f98000 ---p 00002000 08:02 6297246                    /home/luno/.pyenv/versions/3.6.0/envs/async-env/lib/python3.6/site-packages/japronto/router/cmatcher.cpython-36m-x86_64-linux-gnu.so
+7f98c1f98000-7f98c1f99000 rw-p 00002000 08:02 6297246                    /home/luno/.pyenv/versions/3.6.0/envs/async-env/lib/python3.6/site-packages/japronto/router/cmatcher.cpython-36m-x86_64-linux-gnu.so
+7f98c1f99000-7f98c1fa0000 r-xp 00000000 08:02 6953687                    /lib/x86_64-linux-gnu/librt-2.24.so
+7f98c1fa0000-7f98c219f000 ---p 00007000 08:02 6953687                    /lib/x86_64-linux-gnu/librt-2.24.so
+7f98c219f000-7f98c21a0000 r--p 00006000 08:02 6953687                    /lib/x86_64-linux-gnu/librt-2.24.so
+7f98c21a0000-7f98c21a1000 rw-p 00007000 08:02 6953687                    /lib/x86_64-linux-gnu/librt-2.24.so
+7f98c21a1000-7f98c22fd000 r-xp 00000000 08:02 6297061                    /home/luno/.pyenv/versions/3.6.0/envs/async-env/lib/python3.6/site-packages/uvloop/loop.cpython-36m-x86_64-linux-gnu.so
+7f98c22fd000-7f98c24fd000 ---p 0015c000 08:02 6297061                    /home/luno/.pyenv/versions/3.6.0/envs/async-env/lib/python3.6/site-packages/uvloop/loop.cpython-36m-x86_64-linux-gnu.so
+7f98c24fd000-7f98c2513000 rw-p 0015c000 08:02 6297061                    /home/luno/.pyenv/versions/3.6.0/envs/async-env/lib/python3.6/site-packages/uvloop/loop.cpython-36m-x86_64-linux-gnu.so
+7f98c2513000-7f98c255a000 rw-p 00000000 00:00 0
+7f98c255a000-7f98c2573000 r-xp 00000000 08:02 6951544                    /lib/x86_64-linux-gnu/libz.so.1.2.8
+7f98c2573000-7f98c2772000 ---p 00019000 08:02 6951544                    /lib/x86_64-linux-gnu/libz.so.1.2.8
+7f98c2772000-7f98c2773000 r--p 00018000 08:02 6951544                    /lib/x86_64-linux-gnu/libz.so.1.2.8
+7f98c2773000-7f98c2774000 rw-p 00019000 08:02 6951544                    /lib/x86_64-linux-gnu/libz.so.1.2.8
+7f98c2774000-7f98c2779000 r-xp 00000000 08:02 4076683                    /home/luno/.pyenv/versions/3.6.0/lib/python3.6/lib-dynload/binascii.cpython-36m-x86_64-linux-gnu.so
+7f98c2779000-7f98c2978000 /lib/x86_64-linux-gnu/libc.so.6(cfree+0x4c)[0x7f98c65fc18c]
+/home/luno/.pyenv/versions/async-env/lib/python3.6/site-packages/japronto/protocol/cprotocol.cpython-36m-x86_64-linux-gnu.so(+0x6e8f)[0x7f98c0efae8f]
+Fatal Python error: Aborted
+
+Current thread 0x00007f98c7468440 (most recent call first):
+  File "/home/lunpythono/.pyenv//home/luno/.pyenv/versions/async-env/lib/python3.6/site-packages/uvloop/loop.cpython-36m-x86_64-linux-gnu.soversions/async-env/l/home/luno/.pyenv/versions/async-env/lib/python3.6/site-packages/uvloop/loop.cpython-36m-x86_64-linux-gnu.soib/python3.6/site-packages/japronto/app/__init__.py", line 182 in serve
+  File "/hompythone/luno/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/process.py", line 93 in run
+  File "/home/luno/.pyenv/versions/3.6.0/lib/pypythonthon3.6/multiprocessing/process.py", line python249 in _bootstrap
+python  File "/home/luno/.pypythonenv/versions/3.6.0/lib/python3.6/multiprocessing/ppythonopen_fork.py", line 74 in _launch
+  File "/home/luno/.pythonpyenv/versions/3.6.0/libpython/python3.6/pythonmultiprocessing/popen_fork.py", line 20 in __init__
+  File "/home/luno/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/context.py"python, line 277 in _Popen
+  File "/home/luno/.pyenv/versions/3.6python.0/lib/python3.6/multiprocessing/context.py", line 223 in _Popen
+  File "/home/luno/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/process.py", line 105 in start
+  File "/home/luno/.pyenv/versions/async-env/lib/pythonpython3.6/site-packages/japronto/app/__init__.py", line 228 in _run
+  File "/home/luno/.pyenv/versions/async-env/lib/python3.6/site-packages/japronto/app/__init__.py", line 264 in run
+  File "mai======= Memory map: ========
+n.py", line 12 in <module>
+56160435e000-561604605000 r-xp 00000000 08:02 4063502                    /home/luno/.pyenv/versions/3.6.0/bin/python3.6
+561604805000-561604808000 r--p 002a7000 08:02 4063502                    /home/luno/.pyenv/versions/3.6.0/bin/python3.6
+561604808000-56160486b000 rw-p 002aa000 08:02 4063502                    /home/luno/.pyenv/versions/3.6.0/bin/python3.6
+56160486b000-56160489c000 rw-p 00000000 00:00 0
+561606543000-5616067eb000 rw-p 00000000 00:00 0                          [heap]
+5616067eb000-56160683b000 rw-p 00000000 00:00 0                          [heap]
+7f98bc000000-7f98bc021000 rw-p 00000000 00:00 0
+7f98bc021000-7f98c0000000 ---p 00000000 00:00 0
+7f98c0adb000-7f98c0af1000 r-xp 00000000 08:02 6951402                    /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f98c0af1000-7f98c0cf0000 ---p 00016000 08:02 6951402                    /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f98c0cf0000-7f98c0cf1000 r--p 00015000 08:02 6951402                    /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f98c0cf1000-7f98c0cf2000 rw-p 00016000 08:02 6951402                    /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f98c0cf2000-7f98c0cf4000 r-xp 00000000 08:02 6297207                    /home/luno/.pyenv/versions/3.6.0/envs/async-env/lib/python3.6/site-packages/japronto/protocol/creaper.cpython-36m-x86_64-linux-gnu.so
+7f98c0cf4000-7f98c0ef3000 ---p 00002000 08:02 6297207                    /home/luno/.pyenv/versions/3.6.0/envs/async-env/lib/python3.6/site-packages/japronto/protocol/creaper.cpython-36m-x86_64-linux-gnu.so
+7f98c0ef3000-7f98c0ef4000 rw-p 00001000 08:02 6297207                    /home/luno/.pyenv/versions/3.6.0/envs/async-env/lib/python3.6/site-packages/japronto/protocol/creaper.cpython-36m-x86_64-linux-gnu.so
+7f98c0ef4000-7f98c0efe000 r-xp 00000000 08:02 6297210                    /home/luno/.pyenv/versions/3.6.0/envs/async-env/lib/python3.6/site-packages/japronto/protocol/cprotocol.cpython-36m-x86_64-linux-gnu.so
+7f98c0efe000-7f98c10fd000 ---p 0000a000 08:02 6297210                    /home/luno/.pyenv/versions/3.6.0/envs/async-env/lib/python3.6/site-packages/japronto/protocol/cprotocol.cpython-36m-x86_64-linux-gnu.so
+7f98c10fd000-7f98c10fe000 rw-p 00009000 08:02 6297210                    /home/luno/.pyenv/versions/3.6.0/envs/async-env/lib/python3.6/site-packages/japronto/protocol/cprotocol.cpython-36m-x86_64-linux-gnu.so
+7f98c10fe000-7f98c1101000 r-xp 00000000 08:02 6297227                    /home/luno/.pyenv/versions/3.6.0/envs/async-env/lib/python3.6/site-packages/japronto/response/cresponse.cpython-36m-x86_64-linux-gnu.so
+7f98c1101000-7f98c1301000 ---p 00003000 08:02 6297227                    /home/luno/.pyenv/versions/3.6.0/envs/async-env/lib/python3.6/site-packages/japronto/response/cresponse.cpython-36m-x86_64-linux-gnu.so
+7f98c1301000-7f98c1302000 rw-p 00003000 08:02 6297227                    /home/luno/.pyenv/versions/3.6.0/envs/async-env/lib/python3.6/site-packages/japronto/response/cresponse.cpython-36m-x86_64-linux-gnu.so
+7f98c1302000-7f98c1307000 r-xp 00000000 08:02 6297192                    /home/luno/.pyenv/versions/3.6.0/envs/async-env/lib/python3.6/site-packages/japronto/request/crequest.cpython-36m-x86_64-linux-gnu.so
+7f98c1307000-7f98c1506000 ---p 00005000 08:02 6297192                    /home/luno/.pyenv/versions/3.6.0/envs/async-env/lib/python3.6/site-packages/japronto/request/crequest.cpython-36m-x86_64-linux-gnu.so
+7f98c1506000-7f98c1507000 rw-p 00004000 08:02 6297192                    /home/luno/.pyenv/versions/3.6.0/envs/async-env/lib/python3.6/site-packages/japronto/request/crequest.cpython-36m-x86_64-linux-gnu.so
+7f98c1507000-7f98c15c6000 r-xp 00000000 08:02 4076685                    /home/luno/.pyenv/versions/3.6.0/lib/python3.6/lib-dynload/unicodedata.cpython-36m-x86_64-linux-gnu.so
+7f98c15c6000-7f98c17c5000 ---p 000bf000 08:02 4076685                    /home/luno/.pyenv/versions/3.6.0/lib/python3.6/lib-dynload/unicodedata.cpython-36m-x86_64-linux-gnu.so
+7f98c17c5000-7f98c17c6000 r--p 000be000 08:02 4076685                    /home/luno/.pyenv/versions/3.6.0/lib/python3.6/lib-dynload/unicodedata.cpython-36m-x86_64-linux-gnu.so
+7f98c17c6000-7f98c17e1000 rw-p 000bf000 08:02 4076685                    /home/luno/.pyenv/versions/3.6.0/lib/python3.6/lib-dynload/unicodedata.cpython-36m-x86_64-linux-gnu.so
+7f98c17e1000-7f98c18b2000 rw-p 00000000 00:00 0
+7f98c18b2000-7f98c18c8000 r-xp 00000000 08:02 4076660                    /home/luno/.pyenv/versions/3.6.0/lib/python3.6/lib-dynload/_datetime.cpython-36m-x86_64-linux-gnu.so
+7f98c18c8000-7f98c1ac7000 ---p 00016000 08:02 4076660                    /home/luno/.pyenv/versions/3.6.0/lib/python3.6/lib-dynload/_datetime.cpython-36m-x86_64-linux-gnu.so
+7f98c1ac7000-7f98c1ac8000 r--p 00015000 08:02 4076660                    /home/luno/.pyenv/versions/3.6.0/lib/python3.6/lib-dynload/_datetime.cpython-36m-x86_64-linux-gnu.so
+7f98c1ac8000-7f98c1acb000 rw-p 00016000 08:02 4076660                    /home/luno/.pyenv/versions/3.6.0/lib/python3.6/lib-dynload/_datetime.cpython-36m-x86_64-linux-gnu.so
+7f98c1acb000-7f98c1b4b000 rw-p 00000000 00:00 0
+7f98c1b4b000-7f98c1b55000 r-xp 00000000 08:02 4076667                    /home/luno/.pyenv/versions/3.6.0/lib/python3.6/lib-dynload/_json.cpython-36m-x86_64-linux-gnu.so
+7f98c1b55000-7f98c1d54000 ---p 0000a000 08:02 4076667                    /home/luno/.pyenv/versions/3.6.0/lib/python3.6/lib-dynload/_json.cpython-36m-x86_64-linux-gnu.so
+7f98c1d54000-7f98c1d55000 r--p 00009000 08:02 4076667                    /home/luno/.pyenv/versions/3.6.0/lib/python3.6/lib-dynload/_json.cpython-36m-x86_64-linux-gnu.so
+7f98c1d55000-7f98c1d56000 rw-p 0000a000 08:02 4076667                    /home/luno/.pyenv/versions/3.6.0/lib/python3.6/lib-dynload/_json.cpython-36m-x86_64-linux-gnu.so
+7f98c1d56000-7f98c1d96000 rw-p 00000000 00:00 0
+7f98c1d96000-7f98c1d98000 r-xp 00000000 08:02 6297246                    /home/luno/.pyenv/versions/3.6.0/envs/async-env/lib/python3.6/site-packages/japronto/router/cmatcher.cpython-36m-x86_64-linux-gnu.so
+7f98c1d98000-7f98c1f98000 ---p 00002000 08:02 6297246                    /home/luno/.pyenv/versions/3.6.0/envs/async-env/lib/python3.6/site-packages/japronto/router/cmatcher.cpython-36m-x86_64-linux-gnu.so
+7f98c1f98000-7f98c1f99000 rw-p 00002000 08:02 6297246                    /home/luno/.pyenv/versions/3.6.0/envs/async-env/lib/python3.6/site-packages/japronto/router/cmatcher.cpython-36m-x86_64-linux-gnu.so
+7f98c1f99000-7f98c1fa0000 r-xp 00000000 08:02 6953687                    /lib/x86_64-linux-gnu/librt-2.24.so
+7f98c1fa0000-7f98c219f000 ---p 00007000 08:02 6953687                    /lib/x86_64-linux-gnu/librt-2.24.so
+7f98c219f000-7f98c21a0000 r--p 00006000 08:02 6953687                    /lib/x86_64-linux-gnu/librt-2.24.so
+7f98c21a0000-7f98c21a1000 rw-p 00007000 08:02 6953687                    /lib/x86_64-linux-gnu/librt-2.24.so
+7f98c21a1000-7f98c22fd000 r-xp 00000000 08:02 6297061                    /home/luno/.pyenv/versions/3.6.0/envs/async-env/lib/python3.6/site-packages/uvloop/loop.cpython-36m-x86_64-linux-gnu.so
+7f98c22fd000-7f98c24fd000 ---p 0015c000 08:02 6297061                    /home/luno/.pyenv/versions/3.6.0/envs/async-env/lib/python3.6/site-packages/uvloop/loop.cpython-36m-x86_64-linux-gnu.so
+7f98c24fd000-7f98c2513000 rw-p 0015c000 08:02 6297061                    /home/luno/.pyenv/versions/3.6.0/envs/async-env/lib/python3.6/site-packages/uvloop/loop.cpython-36m-x86_64-linux-gnu.so
+7f98c2513000-7f98c255a000 rw-p 00000000 00:00 0
+7f98c255a000-7f98c2573000 r-xp 00000000 08:02 6951544                    /lib/x86_64-linux-gnu/libz.so.1.2.8
+7f98c2573000-7f98c2772000 ---p 00019000 08:02 6951544                    /lib/x86_64-linux-gnu/libz.so.1.2.8
+7f98c2772000-7f98c2773000 r--p 00018000 08:02 6951544                    /lib/x86_64-linux-gnu/libz.so.1.2.8
+7f98c2773000-7f98c2774000 rw-p 00019000 08:02 6951544                    /lib/x86_64-linux-gnu/libz.so.1.2.8
+7f98c2774000-7f98c2779000 r-xp 00000000 08:02 4076683                    /home/luno/.pyenv/versions/3.6.0/lib/python3.6/lib-dynload/binascii.cpython-36m-x86_64-linux-gnu.so
+7f98c2779000-7f98c2978000 ---p 00005000 08:02 4076683                    /hFatal Python error: Aborted
+
+Current thread 0x00007f98c7468440 (most recent call first):
+  File "/home/luno/.pyenv/versions/async-env/lib/python3.6/site-packages/japronto/app/__init__.py", line 182 in serve
+  File "/home/luno/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/process.py", line 93 in run
+  File "/home/luno/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/process.py", line 249 in _bootstrap
+  File "/home/luno/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/popen_fork.py", line 74 in _launch
+  File "/home/luno/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/popen_fork.py", line 20 in __init__
+  File "/home/luno/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/context.py", line 277 in _Popen
+  File "/home/luno/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/context.py", line 223 in _Popen
+  File "/home/luno/.pyenv/versions/3.6.0/lib/python3.6/multiprocessing/process.py", line 105 in start
+  File "/home/luno/.pyenv/versions/async-env/lib/python3.6/site-packages/japronto/app/__init__.py", line 228 in _run
+  File "/home/luno/.pyenv/versions/async-env/lib/python3.6/site-packages/japronto/app/__init__.py", line 264 in run
+  File "main.py", line 12 in <module>
+Worker crashed on signal SIGABRT!
+Worker crashed on signal SIGABRT!
+ 

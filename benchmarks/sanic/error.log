@@ -1,0 +1,20 @@
+2017-03-06 00:29:36,769: INFO: Goin' Fast @ http://0.0.0.0:8080
+2017-03-06 00:29:36,774: INFO: Starting worker [30186]
+Task exception was never retrieved
+future: <Task finished coro=<Sanic.handle_request() done, defined at /home/luno/.pyenv/versions/async-env/lib/python3.6/site-packages/sanic/app.py:348> exception=AttributeError("'NoneType' object has no attribute 'should_keep_alive'",)>
+Traceback (most recent call last):
+  File "/home/luno/.pyenv/versions/async-env/lib/python3.6/site-packages/sanic/app.py", line 424, in handle_request
+    response_callback(response)
+  File "/home/luno/.pyenv/versions/async-env/lib/python3.6/site-packages/sanic/server.py", line 171, in write_response
+    self.parser.should_keep_alive() and not self.signal.stopped)
+AttributeError: 'NoneType' object has no attribute 'should_keep_alive'
+Task exception was never retrieved
+future: <Task finished coro=<Sanic.handle_request() done, defined at /home/luno/.pyenv/versions/async-env/lib/python3.6/site-packages/sanic/app.py:348> exception=AttributeError("'NoneType' object has no attribute 'should_keep_alive'",)>
+Traceback (most recent call last):
+  File "/home/luno/.pyenv/versions/async-env/lib/python3.6/site-packages/sanic/app.py", line 424, in handle_request
+    response_callback(response)
+  File "/home/luno/.pyenv/versions/async-env/lib/python3.6/site-packages/sanic/server.py", line 171, in write_response
+    self.parser.should_keep_alive() and not self.signal.stopped)
+AttributeError: 'NoneType' object has no attribute 'should_keep_alive'
+Task exception was never retrieved
+...
