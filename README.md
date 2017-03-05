@@ -1,5 +1,5 @@
 ## async-pipeline-bench
-simple pipeline bench related to `async` with some Python frameworks.
+Simple pipeline bench related to `async` with some Python frameworks.
 
 simple async code to test:
 ```python
@@ -17,9 +17,10 @@ Sending http pipeline with wrk:
 wrk -t10 -c200 -d5s http://127.0.0.1:8080 --latency -s pipeline.lua -- 5
 ```
 
-## results
-- **uvloop with httptools** shows the best performance in python frameworks.
-- **aiohttp**, **tornado** successfully processed the http pipeline requests, whereas **sanic** and **japronto** failed. (See `error.log` for details.)
+## Results
+- As expected, **uvloop with httptools** shows the best performance in python frameworks.
+- **aiohttp**, **tornado** successfully processed the http pipeline requests.
+- **sanic** and **japronto** failed. (See `error.log` for details.)
 
 ### uvloop with httptools
 ```
