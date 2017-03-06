@@ -3,17 +3,16 @@ import uvloop
 import asyncio
 import httptools
 
-# test code
 
 class HttpRequest:
     __slots__ = ('_protocol', '_url', '_headers', '_version', '_keep_alive')
 
-    def __init__(self, protocol, url, headers, version):
+    def __init__(self, protocol, url, headers, version, keep_alive):
         self._protocol = protocol
         self._url = url
         self._headers = headers
         self._version = version
-        self._keep_alive = False
+        self._keep_alive = keep_alive
 
 
 class HttpResponse:
@@ -58,10 +57,10 @@ class HttpProtocol(asyncio.Protocol):
         self._current_headers.append((name, value))
 
     def on_headers_complete(self):
-        self._keep_alive = b'keep-alive' in [v for (k, v) in self._current_headers]
         self._current_request = HttpRequest(
             self, self._current_url, self._current_headers,
-            self._current_parser.get_http_version())
+            self._current_parser.get_http_version(),
+            self._current_parser.should_keep_alive())
 
         self._loop.call_soon(
             self.handle, self._current_request,
@@ -94,7 +93,7 @@ class HttpProtocol(asyncio.Protocol):
         asyncio.wait(task)
         response.write(b'Hello World!')
 
-        if not self._keep_alive:
+        if not request._keep_alive:
             self._transport.close()
         self._current_parser = None
         self._current_request = None
